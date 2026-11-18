@@ -1,0 +1,31 @@
+row_id,title,text,prediction,true_label,predicted_label,correct,word_count,short_6_or_less
+3,Prediction Unit Helps Forecast Wildfires (AP),Prediction Unit Helps Forecast Wildfires (AP),2,Sci/Tech,Sports,False,6,True
+6,Loosing the War on Terrorism,Loosing the War on Terrorism,1,Sci/Tech,World,False,5,True
+9,"Card fraud unit nets 36,000 cards","Card fraud unit nets 36,000 cards",3,Sci/Tech,Business,False,6,True
+13,Super ant colony hits Australia,Super ant colony hits Australia,1,Sci/Tech,World,False,5,True
+20,IBM to hire even more new workers,IBM to hire even more new workers,3,Sci/Tech,Business,False,7,False
+23,Some People Not Eligible to Get in on Google IPO,Some People Not Eligible to Get in on Google IPO,3,Sci/Tech,Business,False,10,False
+24,Rivals Try to Turn Tables on Charles Schwab,Rivals Try to Turn Tables on Charles Schwab,3,Sci/Tech,Business,False,8,False
+49,Another Major Non-Factor,Another Major Non-Factor,4,Sports,Sci/Tech,False,3,True
+55,Promoting a Shared Vision,Promoting a Shared Vision,1,Sci/Tech,World,False,4,True
+79,Live: Olympics day four,Live: Olympics day four,2,World,Sports,False,4,True
+83,Intel to delay product aimed for high-definition TVs,Intel to delay product aimed for high-definition TVs,4,Business,Sci/Tech,False,8,False
+88,U.S. Misses Cut in Olympic 100 Free,U.S. Misses Cut in Olympic 100 Free,2,World,Sports,False,7,False
+89,Consumers Would Pay In Phone Proposal,Consumers Would Pay In Phone Proposal,3,Sci/Tech,Business,False,6,True
+104,Mr Downer shoots his mouth off,Mr Downer shoots his mouth off,2,World,Sports,False,6,True
+106,Stocks Climb on Drop in Consumer Prices,Stocks Climb on Drop in Consumer Prices,3,World,Business,False,7,False
+110,Yahoo! Ups Ante for Small Businesses,Yahoo! Ups Ante for Small Businesses,4,Business,Sci/Tech,False,6,True
+111,IBM Buys Two Danish Services Firms,IBM Buys Two Danish Services Firms,3,Sci/Tech,Business,False,6,True
+120,Oil prices bubble to record high,Oil prices bubble to record high,3,World,Business,False,6,True
+126,Security scare as intruder dives in,Security scare as intruder dives in,1,Sports,World,False,6,True
+154,Google Lowers Its IPO Price Range,Google Lowers Its IPO Price Range,3,World,Business,False,6,True
+155,"Future Doctors, Crossing Borders","Future Doctors, Crossing Borders",3,World,Business,False,4,True
+161,SEC may put end to quid pro quo (USATODAY.com),SEC may put end to quid pro quo (USATODAY.com),4,Business,Sci/Tech,False,9,False
+173,"Small computers can have multiple personalities, too","Small computers can have multiple personalities, too",3,Sci/Tech,Business,False,7,False
+178,Oracle launches Business Integlligence 10g,Oracle launches Business Integlligence 10g,3,Sci/Tech,Business,False,5,True
+181,Expanding West,Expanding West,4,Sports,Sci/Tech,False,2,True
+189,Drive maker files counterclaims in patent suit,Drive maker files counterclaims in patent suit,3,Sci/Tech,Business,False,7,False
+196,Stock Prices Climb Ahead of Google IPO,Stock Prices Climb Ahead of Google IPO,3,World,Business,False,7,False
+200,Strong Family Equals Strong Education,Strong Family Equals Strong Education,1,Sci/Tech,World,False,5,True
+222,"Selling Houston Warts and All, Especially Warts","Selling Houston Warts and All, Especially Warts",2,Business,Sports,False,7,False
+231,Scandal won #39;t go away,Scandal won #39;t go away,3,Sports,Business,False,5,True

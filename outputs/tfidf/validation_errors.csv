@@ -1,0 +1,31 @@
+row_id,title,text,prediction,true_label,predicted_label,correct,word_count,short_6_or_less
+19,"Fitzpatrick amp; Co. were amazing, end of story","Fitzpatrick amp; Co. were amazing, end of story",3,Sports,Business,False,8,False
+25,Bush urges baseball to quot;address ... serious problem quot; of steroids,Bush urges baseball to quot;address ... serious problem quot; of steroids,1,Sports,World,False,11,False
+27,PCAOB Releases Big Four Findings,PCAOB Releases Big Four Findings,1,Business,World,False,5,True
+30,Are you sitting comfortably? Then let #39;s spy,Are you sitting comfortably? Then let #39;s spy,2,Sci/Tech,Sports,False,8,False
+39,Western investors eye Russia's wireless market,Western investors eye Russia's wireless market,3,Sci/Tech,Business,False,6,True
+48,One in four Californians consider moving,One in four Californians consider moving,2,Business,Sports,False,6,True
+76,"Sun goes down, Empire blows up","Sun goes down, Empire blows up",4,Business,Sci/Tech,False,6,True
+90,Too Close to Call?,Too Close to Call?,2,Sci/Tech,Sports,False,4,True
+97,"Microsoft, Amazon file phishing, spamming lawsuits","Microsoft, Amazon file phishing, spamming lawsuits",4,Business,Sci/Tech,False,6,True
+105,Iranian authorities block reformist websites,Iranian authorities block reformist websites,1,Sci/Tech,World,False,5,True
+115,The Process of Picking a Winner Poses Issues,The Process of Picking a Winner Poses Issues,1,Sports,World,False,8,False
+129,Vivendi Ups Forecast After Strong Quarter (Reuters),Vivendi Ups Forecast After Strong Quarter (Reuters),3,Sci/Tech,Business,False,7,False
+147,WASHINGTON IN BRIEF,WASHINGTON IN BRIEF,2,Business,Sports,False,3,True
+161,Medics' training applies lessons of battle,Medics' training applies lessons of battle,4,World,Sci/Tech,False,6,True
+183,Senate Approves Bill Worth \$140 Billion in Corporate Tax Breaks,Senate Approves Bill Worth \$140 Billion in Corporate Tax Breaks,3,World,Business,False,10,False
+185,A Rousing Comeback For Home of the Beatles,A Rousing Comeback For Home of the Beatles,2,World,Sports,False,8,False
+193,"Bomb blast fails to stop NZ Hockey, but Aussies pull out","Bomb blast fails to stop NZ Hockey, but Aussies pull out",1,Sports,World,False,11,False
+208,Australia-US Free Trade Agreement takes effect New Year #39;s Day,Australia-US Free Trade Agreement takes effect New Year #39;s Day,3,World,Business,False,10,False
+211,The bullish case for Kerry,The bullish case for Kerry,1,Business,World,False,5,True
+224,Clear Channel Plays Rough in Motorcycling Battle,Clear Channel Plays Rough in Motorcycling Battle,2,Business,Sports,False,7,False
+237,Intel #39;s next CEO brings different focus,Intel #39;s next CEO brings different focus,4,Business,Sci/Tech,False,7,False
+244,DirecTV to Sell Half of Hughes Systems,DirecTV to Sell Half of Hughes Systems,3,Sci/Tech,Business,False,7,False
+248,India's Kashmir Govt to Fight Ban on Shahtoosh Wool (Reuters),India's Kashmir Govt to Fight Ban on Shahtoosh Wool (Reuters),1,Sci/Tech,World,False,10,False
+256,"The Party Of Blind Hatred, Hypocrisy And Hysteria","The Party Of Blind Hatred, Hypocrisy And Hysteria",1,Business,World,False,8,False
+257,Software for drummers and strummers,Software for drummers and strummers,4,Business,Sci/Tech,False,5,True
+275,WORLD IN BRIEF,WORLD IN BRIEF,4,World,Sci/Tech,False,3,True
+278,One Really Ugly Mark on Star Gas,One Really Ugly Mark on Star Gas,2,Business,Sports,False,7,False
+298,Colombians Busted for Faking Hard-To-Copy \$20 Bill,Colombians Busted for Faking Hard-To-Copy \$20 Bill,4,World,Sci/Tech,False,7,False
+306,Campaigns fail to focus on energy,Campaigns fail to focus on energy,3,Sci/Tech,Business,False,6,True
+311,Mobile multimedia slow to catch on,Mobile multimedia slow to catch on,4,World,Sci/Tech,False,6,True
