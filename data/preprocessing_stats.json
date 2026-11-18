@@ -1,0 +1,36 @@
+{
+  "raw_train": 120000,
+  "raw_test": 7600,
+  "ambiguous_headline_keys_removed": 727,
+  "train_rows_overlapping_test_removed": 652,
+  "train": {
+    "count": 101043,
+    "short_count": 47011,
+    "class_counts": {
+      "World": 25699,
+      "Sports": 26028,
+      "Business": 24922,
+      "Sci/Tech": 24394
+    }
+  },
+  "val": {
+    "count": 11227,
+    "short_count": 5198,
+    "class_counts": {
+      "World": 2856,
+      "Sports": 2892,
+      "Business": 2769,
+      "Sci/Tech": 2710
+    }
+  },
+  "test": {
+    "count": 7464,
+    "short_count": 3554,
+    "class_counts": {
+      "World": 1882,
+      "Sports": 1886,
+      "Business": 1844,
+      "Sci/Tech": 1852
+    }
+  }
+}
