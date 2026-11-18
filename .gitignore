@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+models/
+*.joblib
+*.pkl
+
+# Generated datasets
+data/*.csv
+
+# Model predictions and evaluation outputs
+results/*.csv
+results/*.txt
