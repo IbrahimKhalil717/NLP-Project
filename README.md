@@ -83,7 +83,7 @@ python pretrained_model.py --data_dir data --out_dir results --model_dir models
 - `TFIDF.ipynb` — optional original development notebook; **not** the main submission.
 - `preprocessing.py`, `traditional_model.py`, `pretrained_model.py` — source methods.
 - `prepare_minilm_predictions.py`, `evaluation.py`, `predict_news.py` — canonical integration, evaluation and inference.
-- `evaluation_member1.py` — compatibility command that delegates to `evaluation.py`.
+- `evaluation_legacy.py` — compatibility command that delegates to `evaluation.py`.
 - `data/*.csv` — frozen approved splits; `data/preprocessing_stats.json` gives counts.
 - `results/*.csv` — final fixed model predictions, per-class reports and error-case evidence.
 - `outputs/tfidf/` and `models/` — saved models and evidence.

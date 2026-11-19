@@ -394,7 +394,7 @@ def _main() -> None:
         folder = Path(args.output_dir)
         test_pred.to_csv(folder / "test_predictions.csv", index=False)
         (folder / "test_metrics.json").write_text(json.dumps(final_metrics, indent=2), encoding="utf-8")
-        # Exact schema expected by Ibrahim's evaluation_member1.py. No shuffling.
+        # Exact schema expected by Ibrahim's evaluation_legacy.py. No shuffling.
         team_results = Path("results")
         team_results.mkdir(parents=True, exist_ok=True)
         team_file = team_results / "tfidf_predictions.csv"

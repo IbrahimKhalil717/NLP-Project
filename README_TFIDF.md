@@ -1,6 +1,6 @@
 # TFIDF — files to merge into Ibrahim's existing GitHub project
 
-Unzip **into the root** of the existing `NLP-Project` repository. Do not replace Ibrahim's `README.md`, `requirements.txt`, `preprocessing.py` or `evaluation_member1.py`.
+Unzip **into the root** of the existing `NLP-Project` repository. Do not replace Ibrahim's `README.md`, `requirements.txt`, `preprocessing.py` or `evaluation_legacy.py`.
 
 ## Installation
 
@@ -43,7 +43,7 @@ Check with `git status` that those files really appear as staged. Do not commit 
 After Mohammed provides `results/minilm_predictions.csv`, Ibrahim can run:
 
 ```
-python evaluation_member1.py
+python evaluation_legacy.py
 ```
 
 Ibrahim's evaluator was checked successfully against our `results/tfidf_predictions.csv` (row order, column names, class values).
