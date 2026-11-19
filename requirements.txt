@@ -1,7 +1,12 @@
-
-datasets>=3.0,<5
-pandas>=2.0,<3
-scikit-learn>=1.4,<2
+# Tested data analysis environment for the saved TF-IDF model (Python 3.11+).
+# Pin scikit-learn to 1.8.0 to match saved TF-IDF joblib for reproducible loading.
+scikit-learn==1.8.0
+pandas==2.2.3
+joblib==1.5.3
+numpy>=1.26,<3
 sentence-transformers>=2.2.2
-numpy
-joblib
+# Only needed to regenerate the source train/val/test CSVs:
+datasets>=3.0,<5
+notebook>=7.0
+ipykernel>=6.0
+matplotlib>=3.8

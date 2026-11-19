@@ -20,7 +20,7 @@ These are interpretations of headlines, **not claims about the full articles**. 
 
 ## Limitations and next steps
 
-The TF-IDF approach is based on surface word features and can struggle with unusual vocabulary, overlapping topics, and headlines that give little context. The model was not tuned using the test split. A comparison with the pretrained sentence-embedding method is still pending; neither method should be declared the winner before those results are available. The text-input prediction function and saved model allow new headlines to be classified without retraining.
+The TF-IDF approach is based on surface word features and can struggle with unusual vocabulary, overlapping topics, and headlines that give little context. The model was not tuned using the test split. The completed paired test comparison shows TF-IDF macro F1 of 0.8823 overall and 0.8656 for short headlines, versus 0.8375 and 0.8095 for MiniLM respectively. These are properties of these specific frozen models on the approved split and should not be generalized to all pretrained approaches. The text-input prediction function and saved model allow new headlines to be classified without retraining.
 
 ## References
 

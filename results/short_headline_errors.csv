@@ -1,0 +1,829 @@
+text,label,word_count,is_short,tfidf_prediction,minilm_prediction,tfidf_correct,minilm_correct,error_pattern,label_name,tfidf_prediction_name,minilm_prediction_name
+Prediction Unit Helps Forecast Wildfires (AP),4,6,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Loosing the War on Terrorism,4,5,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+"Card fraud unit nets 36,000 cards",4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Super ant colony hits Australia,4,5,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+Spam suspension hits Sohu.com shares (FT.com),4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Another Major Non-Factor,2,3,True,4,3,False,False,both_wrong,Sports,Sci/Tech,Business
+Promoting a Shared Vision,4,4,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+Jackson Squares Off With Prosecutor,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Griffin to Anchor D-Line,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Live: Olympics day four,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+Consumers Would Pay In Phone Proposal,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Kederis proclaims innocence,2,3,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Surviving Biotech's Downturns,3,3,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Mr Downer shoots his mouth off,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Yahoo! Ups Ante for Small Businesses,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+IBM Buys Two Danish Services Firms,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Oil prices bubble to record high,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+SUVs: Live And Let Die,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Security scare as intruder dives in,2,6,True,1,4,False,False,both_wrong,Sports,World,Sci/Tech
+Google Lowers Its IPO Price Range,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+"Future Doctors, Crossing Borders",1,4,True,3,1,False,True,tfidf_only_wrong,World,Business,World
+Afghan women make brief Olympic debut,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Oracle launches Business Integlligence 10g,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Expanding West,2,2,True,4,3,False,False,both_wrong,Sports,Sci/Tech,Business
+Veterans Committee counts for little,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Strong Family Equals Strong Education,4,5,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Lloyds TSB cashes in on VoIP,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Scandal won #39;t go away,2,5,True,3,1,False,False,both_wrong,Sports,Business,World
+Ali gives Iraq fighting chance,2,5,True,1,1,False,False,both_wrong,Sports,World,World
+"Atlantis ""Evidence"" Found in Spain, Ireland",4,6,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+Vt. sues over importing drugs,3,5,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+Producer sues for Rings profits,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+Services make big gains in Japan,3,6,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+Antidepressants to Reflect Suicide Risk,3,5,True,1,1,False,False,both_wrong,Business,World,World
+Seven seize,2,2,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Chavez victory confirmed,3,3,True,1,1,False,False,both_wrong,Business,World,World
+Fleisher Surges Clear,2,3,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Amazon to Buy Chinese Retailer Joyo.com,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Salesforce.com 2Q Profit Up Sharply,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Unknown Nesterenko Makes World Headlines (Reuters),1,6,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+Around the world,1,3,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Greek weightlifter awaits verdict,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+China confronts lack of pipelines,3,5,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+A Founding Father?,1,3,True,2,4,False,False,both_wrong,World,Sports,Sci/Tech
+PRESS START FOR NOSTALGIA,4,4,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+SI.com,2,1,True,4,4,False,False,both_wrong,Sports,Sci/Tech,Sci/Tech
+Exhausted Massu Outlasts Fish for Gold,2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Cink surfaces as Donald sinks,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+"Prototype copter-cam: Here, there, everywhere",4,5,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+"Nikkei briefly regains 11,000 level",3,5,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Chavez rejects CD as opposition,3,5,True,1,1,False,False,both_wrong,Business,World,World
+"US women avoid disaster, advance",2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Does Nick Carr matter?,4,4,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Record biz hammers #39;ostrich #39; downloaders,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Oil Eases as Iraq Resumes Exports,3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Botswana miners 'face dismissal',3,4,True,1,1,False,False,both_wrong,Business,World,World
+Wiretaps may mute Nextel rivals,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+New Overtime Rules Take Effect,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Japanese joy and British tears,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Controversial US Overtime Rules Take Effect,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+#39;Marathon mouse #39; doubles stamina,4,5,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Dickens Departs,2,2,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Johnson amp; Johnson bids for rival,3,6,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Iran shuts reformist websites,4,4,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Mich. Elephant Gets Therapy for Arthritis,1,6,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Cisco Reaches High And Low,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+#39;Somebody please save my dad #39;,1,6,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+A man with a plan,2,5,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Careening Indians Fall,2,3,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+India's Tata makes powerful debut,1,5,True,3,2,False,False,both_wrong,World,Business,Sports
+EU to probe Microsoft-Time Warner buy,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Bryant Prosecutors Say Some Data Tainted,1,6,True,2,4,False,False,both_wrong,World,Sports,Sci/Tech
+Vonage Awash in Venture Capital,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+"Casio Shows Off Slim, Trim Digicams",4,6,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Nepal blockade 'blow to tourism',3,5,True,1,1,False,False,both_wrong,Business,World,World
+TiVo loss widens,4,3,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+US edge out Brazil for gold,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Breast scans 'fail' in some women,1,6,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+Amelie's final footsteps retraced,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+PeopleSoft customers reassured,3,3,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+DreamWorks Officer Quits,3,3,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+"Exec, wife give Stanford \$43.5 million",3,6,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+Athens - a \$12bn bill,2,5,True,1,3,False,False,both_wrong,Sports,World,Business
+Anticipation nation,2,2,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+A great catch? Lobsters,2,4,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Dominicans' Swift Step Into Crisis,3,5,True,4,1,False,False,both_wrong,Business,Sci/Tech,World
+CSKA sponsor rejects criticism,2,4,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+"United States 66, Russia 62",2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+US economic growth slips to 2.8,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+Bon-Ton's Succession Success,3,3,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Argentina Beats U.S. Men's Basketball Team,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+A Canadian Invasion,3,3,True,1,1,False,False,both_wrong,Business,World,World
+Daly penciled in for Deutsche Bank,2,6,True,3,3,False,False,both_wrong,Sports,Business,Business
+Change on the money,2,4,True,3,3,False,False,both_wrong,Sports,Business,Business
+GOP Jamboree Could Briefly Lift Stocks,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Bea Arthur for President,4,4,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+The Hunt for a Hybrid,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+"Health Highlights: Aug. 28, 2004",3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+"Apology, refund from cruise line",3,5,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+Tropical Storm Slams Into Coastal S.C.,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Our mobile margins will fall: Telstra,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Closing Ceremonies,2,2,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+"Mr. Chang, Strike a Pose",2,5,True,3,1,False,False,both_wrong,Sports,Business,World
+Scaffold collapse survivors improving,3,4,True,1,4,False,False,both_wrong,Business,World,Sci/Tech
+Hot pursuit,2,2,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+On TV -- from the Internet,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Youngster Khan taken to school,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Challenger disappoints with writedown,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Bellhorn makes plenty of noise: Big,2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Going ballistic: Agni-II test fired,1,5,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Carnival crowds likely to top 1m,1,6,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Japan should outsource more,1,4,True,3,3,False,False,both_wrong,World,Business,Business
+Testaverde accepts Parcells #39; nomination,2,5,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Hall of Shame Hall of Fame,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Study: CEOs rewarded for outsourcing,3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Veritas Keeps Reaching into Its Wallet,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Problem device bypassed trials,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+"Philip Morris, plaintiffs fighting again",3,5,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+VeriSign sues ICANN in state court,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Make hotels just like home,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Not a big hit everywhere,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Orange tells customers to Talk Now,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+LeapFrog's Greener Pastures (The Motley Fool),4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Davenport Advances at U.S. Open,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+Counting the Hops (Forbes.com),4,4,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Freed trio get warm Delhi welcome,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Del Monte Needs 9Lives,3,4,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Md. Board Meeting Worries Democrats,4,5,True,3,1,False,False,both_wrong,Sci/Tech,Business,World
+The Russians are back,2,4,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Big Blue veteran heads to EMC,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Intel Outlook May Portend PC Weakness,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Alert shuts Los Angeles airport,1,5,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Wal-Mart Anchors Windows Media Mall,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+"Canada, Finland rule pools",2,4,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Sharapova ousted,2,2,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Checking changes,3,2,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+PM and Latham target Sydney,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Labor situation deserves honest talk,3,5,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+Monti gives Abbey takeover green light,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Next gen games prove a challenge,4,6,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Super powers make move on September,2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Pfizer: Exubera Does Well in Trials,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Florida deaths blamed on Hurricane Frances,2,6,True,1,1,False,False,both_wrong,Sports,World,World
+Netflix and TiVo Joining Forces Online,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+CBS Realigns Entertainment Divisions,3,4,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Stocks Drop After Greenspan Testimony,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+Amvescap reorganizes after settling,3,4,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+"Germany, Brazil draw",2,3,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Ex-WorldCom CEO Wants Witness Immunity (Reuters),3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Hurricanes May Affect Florida Politics,1,5,True,3,1,False,True,tfidf_only_wrong,World,Business,World
+Chip shots,2,2,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Transactions,2,1,True,1,3,False,False,both_wrong,Sports,World,Business
+Quattrone gets 18 months in prison,3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Charting East Asias milestones,1,4,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+Bud Selig Has Skin Cancer Surgery,2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+WordsWorth Books files Chapter 11,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Telescope snaps distant 'planet',1,4,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Study Suggests Bloodletting May Actually Work,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Oracle case bounces to Europe,4,5,True,1,3,False,False,both_wrong,Sci/Tech,World,Business
+ESPN Soccernet.com news services,2,4,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Collingwood anchors England (AFP),1,4,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Tough to predict a hurricane landfall,4,6,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Strong quake hits Hokkaido,1,4,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Restoring an Original,3,3,True,2,4,False,False,both_wrong,Business,Sports,Sci/Tech
+Early Voters Transform Campaign Landscape (AP),1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+CHUCK JAFFE,3,2,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Anniversary remembered on game day,2,5,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Callender wins job as starter,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Jarvis teeters on the brink,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+WPP claims Grey Global prize,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Microsoft vs Sendo: It #39;s over,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Headshake to the SETI Headfake,4,5,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Two Manny dads,1,3,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Meditation Practice Helping Arthritis Patients,4,5,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Dive recovers Cromwell's sailor,1,4,True,3,2,False,False,both_wrong,World,Business,Sports
+Cisco to debut new router family,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+"CREDIT: Canadian Press, Reuters",2,4,True,1,3,False,False,both_wrong,Sports,World,Business
+German investor confidence slumped in September,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+Tyncastle sale gets official go ahead,2,6,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Oracle Profit Rises on Software Demand,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Microsoft Eyes Video for Business IM,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Fish coasts through,2,3,True,4,4,False,False,both_wrong,Sports,Sci/Tech,Sci/Tech
+5000 rally against James Hardie,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Same-sex divorce rules still hazy,1,5,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+Slowing population 'lacks funds',4,4,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Stocks Sink on Coke's Gloomy Forecast,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+'Cities in crisis' leaders warn,4,5,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Key Martha Witness Gets Wrist Slap,3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+HP Wins Defense Contract,3,4,True,4,2,False,False,both_wrong,Business,Sci/Tech,Sports
+Oracle Fails to Inspire Tech Rally,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Devil Rays thumbnails,2,3,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+F1 BOSS LOSES COURT CASE,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+magic number down to 10,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Shareholders Approve Aether Changeover,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+More Troubles For Howard,2,4,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Icing call,2,2,True,3,3,False,False,both_wrong,Sports,Business,Business
+Infineon admits conspiracy in DRAM cartel,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Schooling 'mix up' hits Portugal,1,5,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+Sharon acknowledges ignoring road map,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Hurricane Ivan Slams U.S. Gulf Coast,4,6,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Nortel lowers expectations,4,3,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+BEA's new product chief regroups,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Texas Instruments Plans Buyback (Reuters),4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+-Posted by dave.rosenberg 1:51 pm (PDT),4,6,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+"US, #39;EU-three #39; agree on demand",1,6,True,3,3,False,False,both_wrong,World,Business,Business
+"FSB FUD over FOI, you cry",4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+New Media Players Too Small,4,5,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Hurricanes soak Knight Ridder #39;s 3Q,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+UPDATE 1-Nalbandian suffers Beijing shock,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Mother of Jackson Accuser Testifies,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+Pen can pick some bike U-locks,3,6,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Show lights up Paralympics,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+PeopleSoft sweetens employee compensation,3,4,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+"Thanks for the Pageviews, Ivan",3,5,True,1,4,False,False,both_wrong,Business,World,Sci/Tech
+Security firm eyes Sasser teen,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Macaulay Culkin Released After Drug Arrest,1,6,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Murphy Acquitted of Sexual Abuse Charges,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Ryder Cup: Europe close on victory,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Bonds Takes Stock,2,3,True,3,3,False,False,both_wrong,Sports,Business,Business
+Malls setting curfews for unchaperoned teens,3,6,True,1,4,False,False,both_wrong,Business,World,Sci/Tech
+VoIP becomes new option,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Adams backs power-sharing plan,1,4,True,2,3,False,False,both_wrong,World,Sports,Business
+Bush video awarded Turner Prize,1,5,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+The battle for DR Congo's wildlife,4,6,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+Young People Practicing Unhealthy Habits,4,5,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+"Verity, ClearForest add structure to data",4,6,True,3,1,False,False,both_wrong,Sci/Tech,Business,World
+United Apology over Website Abuse,2,5,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Rogers Wireless Whistles and Fido Responds,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Hyperion targets broader base,4,4,True,1,3,False,False,both_wrong,Sci/Tech,World,Business
+AOL pushes into Internet shopping,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+TruSecure merges with Betrusted,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Trans-Tasman war hots up,3,4,True,4,1,False,False,both_wrong,Business,Sci/Tech,World
+PM to discuss strategic partnership,1,5,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Clouds darken PeopleSoft conference,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+India seeks new TV bids,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+Internet Ad Revenues Jump 40 Percent,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Gates and Ballmer get pay raises,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Jury calls WTC attack two events,3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Stocks Close Higher on Brokerage Earnings,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+Microsoft CFO: Expect more acquisitions,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Ackermann refocuses Deutsche,3,3,True,2,4,False,False,both_wrong,Business,Sports,Sci/Tech
+How Deadly Are Scorpions?,1,4,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Online advertising up 43pc in US,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Yudhoyono's Apparent Win Boosts Markets (AP),1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Flick Collection Opens in Berlin,1,5,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Walking link to low dementia risk,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Clash of the unpredictables: WI-Pak tie,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Plan Would Turn Restore Wash. Estuary,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Pantano replaced by Glock,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Vodafone targets Japan with 3G offensive,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+PeopleSoft gets closer to IBM,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+VZ Wireless Slams National 411 Directory,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+First drug cases at Paralympics,2,5,True,1,1,False,False,both_wrong,Sports,World,World
+Something Positive in Zanu Pf,1,5,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+US not to free female scientists,1,6,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Attacks disrupt some credit card transactions,4,6,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+PeopleSofts big bash,3,3,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+"For Jobs, Brazilians Desert Their Cities",3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+AL Capsules,2,2,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Russian atmosphere hard for Westerners,3,5,True,1,1,False,False,both_wrong,Business,World,World
+Americans Have Dirty Paws,4,4,True,2,1,False,False,both_wrong,Sci/Tech,Sports,World
+S Leone takes control of Freetown,1,6,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+PeopleSoft Plays Defense,3,3,True,4,2,False,False,both_wrong,Business,Sci/Tech,Sports
+Former Dot-Com Commerce One Eyes Closure,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Computer Associates exec pleads not guilty,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Leaders converge on Melbourne,1,4,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+"Week of September 25th, 2004",2,5,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Mountain climbers,2,2,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+IBM as PeopleSoft #39;s Hero? Hardly,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Strikes at London airports,3,4,True,1,1,False,False,both_wrong,Business,World,World
+Airbus drops out of Microsoft appeal,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+"Bush, Kerry Economic Budgets Exceed \$1T",1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+"Rivals Ocean Spray, Northland make peace",3,6,True,1,4,False,False,both_wrong,Business,World,Sci/Tech
+Calif. OKs World's Toughest Smog Rules,1,6,True,4,3,False,False,both_wrong,World,Sci/Tech,Business
+"San Diego fiscally sound, mayor says",3,6,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+Scientist Ramanna mourned,1,3,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+One-Two Economic Punch,2,3,True,3,3,False,False,both_wrong,Sports,Business,Business
+"Men, Women More Different Than Thought",1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Howard Wins Big,2,3,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+MedImmune CEO Talks Finance and Science,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Diverted London Airliner Given All-Clear,1,5,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Kill The Poor,4,3,True,1,3,False,False,both_wrong,Sci/Tech,World,Business
+Plan B Proposes Its Own Alternatives,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+SC to hear Zee petition tommorrow,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+"FM, Reddy to attend IMF-WB meet",3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+McData offers SAN consolidation,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Comcast gets option on TW Cable,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Touchy Times at Midas,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+"Siemens, Freescale Extend Auto Partnership",4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Cisco #39;s SMB Goods,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Cisco switch products target small business,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Cray promotes two execs,4,4,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Senate weighs H-1B visa changes,4,5,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Cowboys Defeat Redskins 21-18,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+Virgin Mobile growth prospects disappoint,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Nigerian oil flows despite rebel threat-companies,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Virgin Starts (70) Mile-High Club,4,5,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+China Wins Paralympics,2,3,True,1,1,False,False,both_wrong,Sports,World,World
+Amazon sues spammers for misleading consumers,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+"SEC Wants Fixes, Instead of Fines",3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Liberty rally to edge Shock,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Motorola cuts may not hurt Chandler,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+BlueGene sneaks past Earth Simulator,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Cricket: Dubai global academy,1,4,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Invading Bullfrogs Appear Nearly Unstoppable,4,5,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Date with destiny for private rocketeers,4,6,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Stewart #39;s Prison Chosen,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+"Colombia back in business, needs reforms-Uribe",3,6,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+Schwarzenegger Signs 'Foie Gras' Bill (AP),4,6,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Around The Region,3,3,True,1,4,False,False,both_wrong,Business,World,Sci/Tech
+"Sales, Sun surge ahead",2,4,True,4,3,False,False,both_wrong,Sports,Sci/Tech,Business
+Neck stents boosted in two studies,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Pharma Groups Work on EPC Issues,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Net firms: Don't tax VoIP,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Hasbro's No Conehead,3,3,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Baseballer shot on bus,2,4,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Opportunity Rings (Forbes.com),4,3,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Witnesses to Confront Cali Cartel Kingpin,1,6,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Singer: Minaya returns home,2,4,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Dare you fight the possessed tomatoes?,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+"Netflix, TiVo sign VoD alliance",3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+EU Accuses Microsoft of Paternal View,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Siemens in 2.69bn deal with BBC,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Grizzlies make Swift move,2,4,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Hewlett-Packard buys Synstar,3,3,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Research Is Definitely in Motion,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Stocks Climb on Strong Economic Data,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+DOJ won't appeal Oracle ruling,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Russias strange bedfellows,1,3,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+Bangkok animal trade talks open,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+Ex-Manager At Fannie to Skip Hearing,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Putin the power broker,3,4,True,1,1,False,False,both_wrong,Business,World,World
+Brown calls for Labour unity,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+In The News: Instant Recall,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+ESPN.com news services,2,3,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+A Painful Mistake,3,3,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Nikkei Opens Higher (Reuters),1,4,True,3,3,False,False,both_wrong,World,Business,Business
+US football: Patriots' historic win,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+"Metcalfe, Allen back ZigBee start-up",4,5,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+PeopleSoft Raises Revenue Forecasts,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Coping With the Common Cold,4,5,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Navy streamlines NMCI contract,4,4,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Peoplesoft Revenues To Beat Expectations (NewsFactor),4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Taking Advantage of the Terminally Stupid,3,6,True,2,4,False,False,both_wrong,Business,Sports,Sci/Tech
+Voters Flock to Register by Deadline,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Brewers introduce prospective buyer,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+U.S. Seeks Reconciliation with Oil-Rich Venezuela,1,6,True,3,1,False,True,tfidf_only_wrong,World,Business,World
+Sex Toy Shuts Down Australian Airport,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+webcrawler: A9.com is cool,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Nobel honours sub-atomic world,4,4,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Tennis: Night final for Aus Open,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Avaya to Buy Germany's Tenovis (Reuters),3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Big guns board Intertrust DRM bandwagon,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Cape Town F1 bid,2,4,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Freddie tightens controls,3,3,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+CA aquires computer security firm,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+How to take the perfect penalty,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Ailton Weighs Rising Sun Offer,2,5,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Stern to Join Sirius Satellite Radio,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+Transparent Search a Snap,4,4,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Ex-Bush Official on Cybersecurity Returns (AP),1,6,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Expansion may lead to division,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+Computer Associates to buy Netegrity,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+"Unisys to lay off 1,400 workers",4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Fall Classic plus,2,3,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Nintendo to Unveil Handheld Upgrade,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+CE giants #39;readying Blu-ray camcorders #39;,4,6,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Fujitsu Siemens profit grows 60 percent,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Mauresmo books a last-eight place,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Clubbing Wet Seal,3,3,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Employment Picture Expected to Improve,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+Head2Head Reader Responses,2,3,True,4,4,False,False,both_wrong,Sports,Sci/Tech,Sci/Tech
+"Elbaradei, Environmentalist Tipped for Nobel (Reuters)",1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Skyboxes May Reach A Limit,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Aisin finishes deal for Michigan land,3,6,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Woman's death probed,3,3,True,1,1,False,False,both_wrong,Business,World,World
+Warne ends India #39;s teen resistance,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Citigroup Hits Back at Parmalat,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Lackluster Jobs Report Pushes Stocks Down,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+Sun settles Kodak patent suit,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Flu Shot Shortage Highlights U.S. Crisis,3,6,True,1,1,False,False,both_wrong,Business,World,World
+Welcome to Alderson,3,3,True,2,2,False,False,both_wrong,Business,Sports,Sports
+New Star-Type Resembles Stillborn Star,4,5,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Johnson to request release or trade,2,6,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Gazprom Plans LNG Terminal in US,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Sihamoni ready to take over:,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+Big Game Hunting,2,3,True,4,4,False,False,both_wrong,Sports,Sci/Tech,Sci/Tech
+Legendary all-rounder Miller dies,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+Second Acts,3,2,True,2,1,False,False,both_wrong,Business,Sports,World
+Chicoutimi #39;was seaworthy #39;,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+T-Online returns to Deutsche Telekom mothership,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Nobel Economics Prize Awarded,3,4,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Safin Survives First-Round Scare in Moscow,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Ecclestone driving a hard bargain,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Soweto township marks centenary,1,4,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Japan loses whale trade bid,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+"Caminiti, 41, dies of heart attack",2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Subplots abound in rich ALCS,2,5,True,3,1,False,False,both_wrong,Sports,Business,World
+Cricket: Tendulkar to miss test,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+"Oil Prices, Earnings Send Stocks Lower",1,6,True,3,3,False,False,both_wrong,World,Business,Business
+Australia: Wallets trump war,1,4,True,3,1,False,True,tfidf_only_wrong,World,Business,World
+'Sherlock' Is Bicycling Across Australia,1,5,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Seattle Sunset,2,2,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Jackson the Wizard of Loz,2,5,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Football: Azerbaijan 0-1 England,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+PeopleSoft Execs Defend Bid Rejection,3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+US got complaints about security guards,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+New planes fly to battle locusts,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Double dip,2,2,True,1,3,False,False,both_wrong,Sports,World,Business
+Can't Hide Your Lying ... Face?,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Seven-wicket Kumble destroys Australia,2,4,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Canada slips again in competitiveness rankings,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Transport strike hits Netherlands,3,4,True,1,1,False,False,both_wrong,Business,World,World
+Index: RP institutions among cellar dwellers,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+FCC exempts fiber-to-curb from sharing requirements,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+"God help us, Yuvi replaces Akash",2,6,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Desert turns into Parks place,2,5,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Playing with the traumas of war,4,6,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Rugby: Kiwis earn draw,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+FDA Orders Strong Antidepressant Warning Labels,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Kerry to reverse stem cell policy,1,6,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+Bullying ZCU is cleared of racism,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+UPDATE 2-Cricket-Malik reported for suspect action,2,6,True,1,1,False,False,both_wrong,Sports,World,World
+Sun posts narrower quarterly loss,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Toughest athlete is female and unknown,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+US consumers unaware of spyware,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+"Tech Giants Declare, 'United We Stand'",4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+5 EU ministers back digital passports,1,6,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Late collapse costs Park a victory,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+UN 'must ignore cloning ban call',4,6,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Glazer buys more Man United shares,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Tennis: Davenport to play on,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+IBM posts broad Q3 revenue growth,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Regulators Approve Artificial Heart,4,4,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+"Industry Report: Dec. 6, 2004",3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+GM Protests Spread Across Europe,3,5,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+"Trust Digital Gets CEO, Cash Influx",4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Flat-screen TV emits international distress signal,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Start of Ebbers Trial Delayed,3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+"Greenspan: Debt, home prices not dangerous",4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Ancient fungus 'revived' in lab,1,5,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Journalist: I just kept talking,1,5,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+Logjam at the point,2,4,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+F1: British Grand Prix ruled out,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Web-based kidney match raises ethics questions,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+230m claim against FT struck out,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Opel workers abandon wildcat strikes,3,5,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Robo-servants set to sweep into homes,4,6,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+Speak Clearly and Carry a Manual,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Report Card In,2,3,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Japan probe claims Citigroup trio,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Giga counters,4,2,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Cricket: Pakistan edge ahead,1,4,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+"Viacom, Disney pay \$1.5M FCC fine",3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Australia #39;living beyond its means #39;,4,6,True,2,1,False,False,both_wrong,Sci/Tech,Sports,World
+Feyenoord make most of early fortune,2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+World #39;s #39;worst plunderers #39; named,4,6,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Qwest: The end of the beginning,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Sri Lanka off to positive start,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Connecticut joins California in Spitzer probe,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Einstein Is Proved Right Again,4,5,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Primaris to spend \$3.8B on jets,3,6,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+EU launches graphic tobacco ads,1,5,True,3,4,False,False,both_wrong,World,Business,Sci/Tech
+Fixed-to-mobile substitution gaining momentum,4,4,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Avis blames IT for multimillion-dollar loss,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Spitzer launches music industry probe,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Google Results Revive 'Dot-Com' Fervor,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Treo 650 on Monday?,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Tributes flood in for Nicholson,2,5,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Miller slams transit funding,3,4,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+Countdown to Deep Impact,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Her aim: Give Tufts-NEMC intensive care,3,6,True,2,4,False,False,both_wrong,Business,Sports,Sci/Tech
+A Card to Your Future,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Loss bodes well for future,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+FERGUSON ATTACKED IN TUNNEL BUST-UP,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+PalmOne Treo 650 Arrives,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Spyware opponents win another battle,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+"Dave Hyde column, October 25, 2004",2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Cards unfazed by Series deficit,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+To learn more,3,3,True,2,4,False,False,both_wrong,Business,Sports,Sci/Tech
+"As reserve, Penny seeks Knick payoff",2,6,True,3,3,False,False,both_wrong,Sports,Business,Business
+Unprecedented Peril Forces Tough Calls,1,5,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+Miss Peru takes Miss World crown,2,6,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+E.U. Regulators Approve Oracle's PeopleSoft Bid,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Aids warning over bushmeat trade,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Microsoft Readies Next Business IM Server,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+26/10/04 Savabeel Compared To Dubai Millennium,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Broadcom taps ex-Philips executive as CEO,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Ovitz Defends His Tenure,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+WWW KOTV.com,1,2,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Henman Sails at the Swiss Indoors,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Faces From The 1929 Crash,3,5,True,1,2,False,False,both_wrong,Business,World,Sports
+Will Tellabs Push Its Luck?,3,5,True,4,2,False,False,both_wrong,Business,Sci/Tech,Sports
+Yahoo Debuts Mobile Search,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Tennis: Leading Brits go marching on,2,6,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Big East braces for growth spurt,2,6,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Attack prompts Bush website block,4,5,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Sainsbury Ultimatum to Leeds,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+A fresh look at the stars...,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+"Link Between Migraine, Endometriosis Found",4,5,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+Racing in an Evening Gown (Forbes.com),3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Gateway Reports Smaller Quarterly Loss,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+"Blame player, not game",4,4,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+"Sign off, then sign in",3,5,True,2,4,False,False,both_wrong,Business,Sports,Sci/Tech
+Not quite high Tech,2,4,True,4,4,False,False,both_wrong,Sports,Sci/Tech,Sci/Tech
+"Dems, GOP: Who's Got the Brains?",4,6,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+National Foods to look for protector,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Times to Scrap Broadsheet Edition,2,5,True,4,4,False,False,both_wrong,Sports,Sci/Tech,Sci/Tech
+AOL's Viral Marketing,3,3,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Australia conquer their final frontier,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Ghostzapper Has Speed to Burn,2,5,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Times to go completely compact,4,5,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Danish group #39;s gift criticized,1,5,True,3,1,False,True,tfidf_only_wrong,World,Business,World
+UPDATE 1-Tamada claims pole in Valencia,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Four pay price for India defeats,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+After the Lord Mayor #39;s show,2,6,True,1,1,False,False,both_wrong,Sports,World,World
+THE UNFOLDING UNIFORM,1,3,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Key Australia-US FTA deadline passes,3,5,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Saturday Essay,3,2,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Kyocera Battery Recall Kyocera Battery Recall,4,6,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Some think this metal is golden,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+London Times goes strictly tabloid,4,5,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Spimming for Dollars,4,3,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+LG Electronics-Matsushita PDP battle,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+"La. Seeks New Bridge, Elevated Highway",3,6,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+Relaxed pot possession bill returns,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+Steeler subs doing their jobs,2,5,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Oracle #39;s sweet on PeopleSoft,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Forest Says Drug Trial Misses Goal,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Australian Bookies Gutted After Betting Splurge,2,6,True,3,3,False,False,both_wrong,Sports,Business,Business
+FleetCenter to be reunion arena,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+"Russell moving on, away from Lakers",2,6,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+IP Proposal,3,2,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Delta #39;s Aborted Crash Landing,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Microsoft Browser Market Share Slips Slightly,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Constellation gets Mondavi for \$1.36B,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Quick end to US election crucial,3,6,True,1,1,False,False,both_wrong,Business,World,World
+RAP OVER DANGER DRUG BAN,3,5,True,1,1,False,False,both_wrong,Business,World,World
+Sole Survivor,3,2,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Another homicide in Holland,4,4,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Argentina Basketball Coach Magnano Quits,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+'Money woes' foiled Beagle 2 shot,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+"Dell, Philips cut \$700 million deal",4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Dubai first to breed at-risk bird,4,6,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Wells Fargo computers stolen,4,4,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+EU leaders agree on Commission reshuffle,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Returning Fallujans will face clampdown,1,5,True,2,3,False,False,both_wrong,World,Sports,Business
+Cazenove teams up with JP Morgan,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Ontario gets harsh with school dropouts,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Silence the loose cannons,1,4,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+Closing the giving gap,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+"Nothing ventured, nothing at all gained",3,6,True,2,4,False,False,both_wrong,Business,Sports,Sci/Tech
+Study raises stent doubts,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Notebook: James giving Sonics a jump-start,2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Plummer spreading production,2,3,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+PM welcomes EU partnership,3,4,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+Tesco To Sell Downloadable Tunes,4,5,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Alternative Energy: Ready or not?,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Microsoft Ends Decade of Antitrust Suits,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Microsoft Makes Another Antitrust Deal,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Phoney eBay bidders fined,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Microsoft Settles Novell Antitrust Suit (Reuters),3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Cellphones outstrip landlines in India (AFP),4,6,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+"Microsoft, Novell Settle Antitrust Suit",3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+BT to buy Infonet for US\$965mil,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Colombia Accuses Cos. of Illegal Imports,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Karp team won't buy Fan Pier,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Phelps faces possible jail term,2,5,True,1,1,False,False,both_wrong,Sports,World,World
+Australia in grip of water crisis,4,6,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+The Bag of Aeolus,1,4,True,3,2,False,False,both_wrong,World,Business,Sports
+Cisco Systems 1st-Quarter Earnings Rise (Reuters),3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Calif. Official Backs Anthem-WellPoint,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+PeopleSoft revises third-quarter profit,4,4,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Chips are down in tech world,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+True Colors,4,2,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Scotland awaits smoking decision,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+U.S. Genetically Modified Corn Is Assailed,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Vodafone begins 3G service,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+(B)old new frontiers,3,3,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+FCC OK's paging company deal (TheDeal.com),4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Patron Saint of the Nerds,4,5,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+BRDC waiting for a proposal,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Cable Wireless to Cut 600 Jobs,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Bush 'picks new attorney general',1,5,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Energy Dept. funds open-source InfiniBand work,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Forget Bextra,3,2,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Marsh says Putnam isn't on block,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Red Hat opens office in China,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Prized Fossil Just a Rock?,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Four in court over SQL theft,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+An Unknown Giant Flexes Its Muscles,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Outsourcing to Arkansas,4,3,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Intel dauphin Otellini becomes king,3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Intel Taps Otellini As Next CEO,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Report: EADS Could Link With Thales,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Hit animated films boost Pixar,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Telephone Tag (Forbes.com),3,3,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+HP Hugs JBoss Tighter,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Court ruling has fat cats purring,4,6,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Warren warned following threat,2,4,True,1,3,False,False,both_wrong,Sports,World,Business
+This week in game news,4,5,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Will Hutton,3,2,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Safety Group Closely Echoes Rail Industry,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+GAME UNDER FIRE,4,3,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Where have all the people gone?,3,6,True,4,1,False,False,both_wrong,Business,Sci/Tech,World
+Will Bills be more receptive?,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+"Virtual Warriors Have Feelings, Too",4,5,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Instant Analysis: Va Tech at Miami,2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+ROCASTLE OFFERS SUPPORT TO NOVO,2,5,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Reports: China Will See More Shortages,3,6,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+Microsoft Storms India,3,3,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Boeing Offers 777 Cargo Freighter,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Grand Central spiffs up integration service,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Car Seats Measured for Whiplash Safety,4,6,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+France #39;s #39;Watergate #39; trial opens,1,6,True,3,1,False,True,tfidf_only_wrong,World,Business,World
+Blair builds Atlantic bridge,1,4,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Australian train crash injures scores,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+China 'owns up' over mystery sub,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+ScanSoft to acquire 3 software firms,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Mets decline Leiter's \$10.2 million option,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+MITTERAND PHONE-TAP TRIAL OPENS,1,4,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+Oreskes Named Times Deputy Managing Editor,3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Microsoft to hire hundreds in India,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Wrigley bites into Kraft,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Casino owners team up in Macao,3,6,True,2,2,False,False,both_wrong,Business,Sports,Sports
+INSIDE INFO: Man Utd shares drop,2,6,True,3,3,False,False,both_wrong,Sports,Business,Business
+"You Say Sell, I Say Potato",3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Zurich Employees Plead Guilty in Probe,3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Committee Recommends Abusive Clergy Ban (AP),1,6,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+Agent: Extortion Plot Targeted Sheffield (AP),2,6,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Argentina gets China investment,1,4,True,3,3,False,False,both_wrong,World,Business,Business
+Producer Price Surge Fuels Inflation Fears,1,6,True,3,3,False,False,both_wrong,World,Business,Business
+"China, Argentina sign 5 cooperation documents",3,6,True,1,1,False,False,both_wrong,Business,World,World
+Getting with the program,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Clip and save,2,3,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+Movie Studios Sue File Traders,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Smoking ban would target pubs,1,5,True,1,3,True,False,minilm_only_wrong,World,World,Business
+TV's Passport Stamp of Approval,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Cricket: NZ suffer Franklin blow,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+BAE included in SFO investigation,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Odd couple: Schwartz and McNealy,4,5,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+A Pair of Dethroned Kings,3,5,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Running may have defined the body,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+HONDA LINKED WITH BAR TAKEOVER,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+London to unveil 2012 bid plans,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+MPAA Sues First Movie Swappers,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Stern Blasts FCC at Satellite Promotion,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Argentina Views China As Market Economy,3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+MEPS APPROVE REVAMPED COMMISSION,1,4,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Is Mad Cow Disease Back?,3,5,True,1,4,False,False,both_wrong,Business,World,Sci/Tech
+Are the Spanish really racist?,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+McCain again opposes the president,4,5,True,2,1,False,False,both_wrong,Sci/Tech,Sports,World
+"Aussies battle EU over cheese, champagne",3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+A Fair Tax,4,3,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Running was a key human characteristic,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+BearingPoint CFO Out; Error Found,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Football: Brazil legend's UK debut,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+"Spain Condemns Racial Abuse, Defends Reputation",2,6,True,1,1,False,False,both_wrong,Sports,World,World
+Football: Spanish FA apologises,1,4,True,2,2,False,False,both_wrong,World,Sports,Sports
+Lazarus-like virus hits computers,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Icahn Takes The High River,3,5,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Barrett: Good business models vary widely,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+"Pepperdine 80, Fairleigh Dickinson 79",2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+"Hey mate, we're moving offshore too!",4,6,True,2,3,False,False,both_wrong,Sci/Tech,Sports,Business
+Lawyers In the Limelight,3,4,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+System glitch hits HSBC,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+World's oldest man dies aged 113,1,6,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+England humble Sprinboks,1,3,True,2,2,False,False,both_wrong,World,Sports,Sports
+ViewPoints: Just say #39;No #39;,3,5,True,2,1,False,False,both_wrong,Business,Sports,World
+Local knowledge produced benefits,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Rats in Mouse #39;s house?,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Google creators in share sell-off,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Blunkett gets tougher on drugs,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Top exec shares business lessons,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Google targets software giant,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+CAT and AstraZeneca enter \$175m collaboration,3,6,True,1,4,False,False,both_wrong,Business,World,Sci/Tech
+Before-the-Bell: GenCorp Falls 5.6 Pct. (Reuters),4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Thomson Joins Microsoft-Time Warner Deal (AP),4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Thomson joins takeover bid for ContentGuard,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Google Founders Selling Off Stock,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Bofra burrows in through banner ads,4,6,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+TiVo Net Loss Widens; Subscribers Grow,3,6,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Alamosa Offers to Buy AirGate (Reuters),4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Defence contractors chase \$23bn deal,3,5,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+Bride of Kazaa,4,3,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Echoes Repeats Success,4,3,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+JFK killing fades in intensity,4,5,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+"Travelers Stuff Roads, Terminals",3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Britain plans national ID cards,1,5,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+"Microsoft, EU Officials in Procedure Meeting",3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+The East-West stakes over Ukraine,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Weah returns to Liberia,1,4,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Streamlined Cable TV in a Card,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Exeter uni cans chemistry department,4,5,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+New drug extends multiple sclerosis options,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Detailed View of Dione,4,4,True,1,2,False,False,both_wrong,Sci/Tech,World,Sports
+Cordio paves the way,2,4,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Melrose comes up short,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+A traditional victory for A-B,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+"Douglas, Fraser, and blue await you",3,6,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+Yukos considers self-destruction,3,3,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Four Hurricanes Hurting Florida Economy (AP),3,6,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+India test-fires surface-to air missile,1,5,True,3,1,False,True,tfidf_only_wrong,World,Business,World
+Toy Safety Report Released,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Forecast Frosty for U.S.-Canadian Ties,1,5,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Hoyas Beat The Citadel,2,4,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Stephen Dodd leads Volvo China Open,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+"Alltel buys Cingular properties, expands network",3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+The Shockwaves of Sumatra,4,4,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Tax-Free Bonuses Tagged Out,3,4,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Game itself needs repair,2,4,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Rwandan #39;motivated by riches #39;,1,5,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+Discovery Channel Tests Power of Licensing,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+The Next Giant Leap,4,4,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+EasyMobile launch set for March,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+MetroPCS obtains Cingular air,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Mamma Search is Buying Copernic,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+A U.S. brain drain?,4,4,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+"South Korea, Singapore seal free-trade pact",3,6,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Chirac puts retirement on hold,1,5,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Plane repos ready to take flight,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Tech Firms Keep Riding Chinese Tiger,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Sharman begins defense in Kazaa case,4,6,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Bangladesh bars female swim,1,4,True,2,1,False,True,tfidf_only_wrong,World,Sports,World
+Chercher dans toute l #39;actualit,1,5,True,2,2,False,False,both_wrong,World,Sports,Sports
+Australia give their neighbours no mercy,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Ex-Guard Speaks Out About Di Tapes,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Poison Toads Leap Across Australia,4,5,True,1,4,False,True,tfidf_only_wrong,Sci/Tech,World,Sci/Tech
+The Kremlins Leviathan,3,3,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+FDA Warns Cyberonics on Manufacturing,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Terms of Endearment,1,3,True,3,2,False,False,both_wrong,World,Business,Sports
+Bettman stands firm in dispute,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+After the X Prize,4,4,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Co-stars nearly steal show,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Murdoch novel reveals Alzheimer's,1,4,True,3,4,False,False,both_wrong,World,Business,Sci/Tech
+Turkey eyes \$15 billion investment years,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Cingular Planning Major 3G Wireless Rollout,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Poland opens Katyn probe,1,4,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Judge declines to dismiss BALCO case,2,6,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Internet Pharmacies: Good or Bad?,4,5,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Plus: Cendant reported to buy Ebookers,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+Spammers strike back at Lycos,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Reed on track despite science outlook,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+HAYLEY MICK:,1,2,True,2,2,False,False,both_wrong,World,Sports,Sports
+Barrick Acquires Stake in Celtic Resources,3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+NTL to shed broadcasting arm,3,5,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Four Infineon executives plead guilty,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Danger - falling dollars,3,4,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Christmas clash over gift choices,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+IBM Quitting Computer Business,3,4,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Two top Nokia executives resign,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Needham downgrades Apple on valuation,3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+Bush Signs Internet Access Tax Ban,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+IBM #39;to sell PC business #39;,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Germans plan mass welfare rallies,3,5,True,1,1,False,False,both_wrong,Business,World,World
+Bonds distorts numbers and history,2,5,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Big Television,4,2,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+"Vivendi, Messier Are Fined \$1.35M Each",3,6,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Supreme Court Hears Wine Sales Case,4,6,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+BBC 'must keep up',1,4,True,3,2,False,False,both_wrong,World,Business,Sports
+Real eager to silence doubting supporters,2,6,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Bipartisan Panel Seeks Greenhouse Gas Limits,3,6,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+IBM announces Lenovo deal,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Schwarzenegger Vows to Defend Emissions Law,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Virgin wishing for Melbourne,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+DreamWorks Moves Shrek 3 to 2007,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Courses to help teach you,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Kazaa trial #39;expert #39; changed sides,4,6,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Ellison: Censorship ain't my problem,4,5,True,4,1,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,World
+Florida Linebacker Charles Charged (AP),2,5,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Get Real?,3,2,True,2,3,False,True,tfidf_only_wrong,Business,Sports,Business
+English 'world language' forecast,1,4,True,4,4,False,False,both_wrong,World,Sci/Tech,Sci/Tech
+One billion #39;denied a childhood #39;,1,6,True,3,4,False,False,both_wrong,World,Business,Sci/Tech
+Wreckage of Navy helicopter found,1,5,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+"Nextel, Sprint Talk Merger",4,4,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Premier swallows Bird #39;s custard,3,5,True,1,2,False,False,both_wrong,Business,World,Sports
+Germany's New Reality,3,3,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Miracle in mud!,1,3,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Big Dig no roadblock,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+Japan's comics retool the art,3,5,True,1,1,False,False,both_wrong,Business,World,World
+Thomson to enter HD DVD market,4,6,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Cardinal Picks a Lilly,3,4,True,3,2,True,False,minilm_only_wrong,Business,Business,Sports
+"DreamWorks, Pixar rule digital animation",3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Inaction #39;s Consequence,1,3,True,3,3,False,False,both_wrong,World,Business,Business
+Mind more free now,2,4,True,2,3,True,False,minilm_only_wrong,Sports,Sports,Business
+Crunch Time for Biotech Companies,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+HP targets China with low-cost PC,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Not exactly an idiotic idea,2,5,True,2,4,True,False,minilm_only_wrong,Sports,Sports,Sci/Tech
+Launcher eyes shuttle succession,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+Qassam rockets hit western Negev community,1,6,True,2,2,False,False,both_wrong,World,Sports,Sports
+Poes condition worsens--doctors,1,3,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+O's Still Fishing,2,3,True,4,2,False,True,tfidf_only_wrong,Sports,Sci/Tech,Sports
+Week's delay for Delta launcher,1,5,True,3,3,False,False,both_wrong,World,Business,Business
+Do-not-call bill could be introduced today,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Travel Column: Australia Through Aboriginal Eyes,4,6,True,1,1,False,False,both_wrong,Sci/Tech,World,World
+Report Says N.H.L. Will Reject Proposal,2,6,True,1,3,False,False,both_wrong,Sports,World,Business
+Fashionably late,3,2,True,2,2,False,False,both_wrong,Business,Sports,Sports
+Boycott Rethink After Ahern Apology,1,5,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Toys Will Be Toys,4,4,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Memphis indefinitely suspends Sean Banks,2,5,True,3,2,False,True,tfidf_only_wrong,Sports,Business,Sports
+King Pong Draws Fans,4,4,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+Call it one for the pages,4,6,True,4,2,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Sports
+Globus inventors go commercial,4,4,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+"Sprint, Nextel to Combine",3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+\$210M Fine In AOL Probe,3,5,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+Google Wins Trademark Victory Over GEICO,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+MicroStrategy Turnover Draws Analyst Scrutiny,4,5,True,4,3,True,False,minilm_only_wrong,Sci/Tech,Sci/Tech,Business
+"Gateway Updates 4Q, Year Guidance",3,5,True,4,3,False,True,tfidf_only_wrong,Business,Sci/Tech,Business
+R.I.P. Gary Webb -- Unembedded Reporter,4,6,True,2,2,False,False,both_wrong,Sci/Tech,Sports,Sports
+A Distraction as a Deadline Approaches,4,6,True,2,4,False,True,tfidf_only_wrong,Sci/Tech,Sports,Sci/Tech
+Bush vows to cut deficit,3,5,True,1,3,False,True,tfidf_only_wrong,Business,World,Business
+Fresh bid to dismiss Jackson case,1,6,True,1,3,True,False,minilm_only_wrong,World,World,Business
+Daily Mail hits back at Blunkett,1,6,True,1,4,True,False,minilm_only_wrong,World,World,Sci/Tech
+Broadband charges set to tumble,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Efficient Germany Sweep Past Japan,2,5,True,1,2,False,True,tfidf_only_wrong,Sports,World,Sports
+Britons still prefer fish n'chips (AFP),1,6,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+UK cannot hold suspects indefinitely,1,5,True,4,1,False,True,tfidf_only_wrong,World,Sci/Tech,World
+FCC Mulls Airborne Mobile Phone Use,3,6,True,4,4,False,False,both_wrong,Business,Sci/Tech,Sci/Tech
+J amp;J acquiring device maker,3,5,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+White House May Pick Bernanke,3,5,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Pakistan collapses at the WACA,2,5,True,2,1,True,False,minilm_only_wrong,Sports,Sports,World
+Fidel Castro Back On His Feet,1,6,True,1,2,True,False,minilm_only_wrong,World,World,Sports
+Cancer drug blow for AstraZeneca,3,5,True,3,1,True,False,minilm_only_wrong,Business,Business,World
+Pfizer News Sends Blue Chips Down,3,6,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech
+Robinho #39;s mother releaased by kidnappers,2,6,True,1,1,False,False,both_wrong,Sports,World,World
+This week in merger news,4,5,True,3,3,False,False,both_wrong,Sci/Tech,Business,Business
+Microsoft buy comes with strings attached,4,6,True,3,4,False,True,tfidf_only_wrong,Sci/Tech,Business,Sci/Tech
+EBay gets into rentals,3,4,True,3,4,True,False,minilm_only_wrong,Business,Business,Sci/Tech

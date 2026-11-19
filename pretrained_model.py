@@ -22,17 +22,18 @@ Member 1 then evaluates both and runs error analysis.
 How to run
 ----------
     python pretrained_model.py \
-        --data_dir  ../data \
-        --out_dir   ../results \
-        --model_dir ../models
+        --data_dir  data \
+        --out_dir   results \
+        --model_dir models
 
 The script writes:
     models/pretrained_lr.joblib          (fitted LogisticRegression on 384-d embeddings)
     models/embedder_name.txt             (the Sentence-Transformer identifier used)
-    results/predictions_B.csv            (test predictions for evaluation.py)
+    results/predictions_B.csv            (source predictions, 0..3 labels)
+    results/minilm_predictions.csv       (team-compatible predictions, 1..4 labels)
     results/predictions_B_val.csv        (validation predictions)
     results/metrics_B.json               (val + test metrics, full and short-only)
-    results/try_it_examples_B.csv        (the 2 manually-labelled Try-It examples)
+    results/try_it_examples_B.csv        (draft Try-It examples requiring personal review)
 """
 
 import argparse
@@ -245,18 +246,19 @@ def predict_text(text: str, embedder, clf):
     }
 
 
-# Two manually labelled examples OUTSIDE the AG News test set.
-# These feed the checklist row "2 manually-labelled examples per member".
+# Two illustrative draft examples OUTSIDE the AG News test set.
+# The student must review/approve or rewrite and manually label personal originals.
+# These examples do not substitute for individually confirmed course examples.
 TRY_IT_EXAMPLES = [
     {
         "text"       : "Startup unveils AI chip that triples training speed",
         "true_label" : "Sci/Tech",
-        "note"       : "Hand-written headline, not in AG News test.",
+        "note"       : "Draft example; review and label personally before submission.",
     },
     {
         "text"       : "National team wins basketball championship after overtime thriller",
         "true_label" : "Sports",
-        "note"       : "Hand-written headline, not in AG News test.",
+        "note"       : "Draft example; review and label personally before submission.",
     },
 ]
 
@@ -266,9 +268,9 @@ TRY_IT_EXAMPLES = [
 # -------------------------------------------------------------------------
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--data_dir",  type=Path, default=Path("../data"))
-    p.add_argument("--out_dir",   type=Path, default=Path("../results"))
-    p.add_argument("--model_dir", type=Path, default=Path("../models"))
+    p.add_argument("--data_dir",  type=Path, default=Path(__file__).resolve().parent / "data")
+    p.add_argument("--out_dir",   type=Path, default=Path(__file__).resolve().parent / "results")
+    p.add_argument("--model_dir", type=Path, default=Path(__file__).resolve().parent / "models")
     p.add_argument("--batch_size", type=int, default=64)
     args = p.parse_args()
 
@@ -283,6 +285,7 @@ def main():
     print("\n[1/6] Loading prepared data from", args.data_dir)
     train = load_split(args.data_dir, "train")
     val   = load_split(args.data_dir, "val")
+    raw_test = pd.read_csv(args.data_dir / "test.csv")
     test  = load_split(args.data_dir, "test")
     print(f"      train={len(train):,}  val={len(val):,}  test={len(test):,}")
     print(f"      short headlines  -> "
@@ -354,6 +357,17 @@ def main():
     with open(args.out_dir / "metrics_B.json", "w") as f:
         json.dump(metrics, f, indent=2)
 
+    # Export canonical results in the test.csv row order and 1..4 label scheme.
+    assert len(raw_test) == len(test)
+    assert raw_test['text'].map(light_clean).equals(test['text'])
+    assert (raw_test['label'].to_numpy() - 1 == test['y'].to_numpy()).all()
+    pd.DataFrame({'text': raw_test['text'], 'prediction': test_pred + 1}).to_csv(
+        args.out_dir / 'minilm_predictions.csv', index=False
+    )
+    # An inference-friendly weight export avoids cross-version sklearn pickle loading.
+    import numpy as _np
+    _np.savez_compressed(args.model_dir / 'minilm_logreg_coefficients.npz',
+                         coef=clf.coef_, intercept=clf.intercept_, classes=clf.classes_)
     joblib.dump(clf, args.model_dir / "pretrained_lr.joblib")
     (args.model_dir / "embedder_name.txt").write_text(EMBED_MODEL_ID + "\n")
 
