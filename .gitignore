@@ -1,16 +1,21 @@
-
 __pycache__/
-*.pyc
+*.py[cod]
 .ipynb_checkpoints/
 .env
 .venv/
-models/
-*.joblib
-*.pkl
+.conda/
+.pytest_cache/
+.DS_Store
+Thumbs.db
 
-# Generated datasets
+# Only ephemeral downloads/caches, not the small frozen model files.
+models/hf_cache/
+.cache/
+
+# AG News source splits can be regenerated from preprocessing.py.
+# They are included in the offline submission ZIP, but not required in Git history.
 data/*.csv
 
-# Model predictions and evaluation outputs
-results/*.csv
-results/*.txt
+# Temporary scratch outputs; canonical frozen results should be committed.
+results/_scratch/
+outputs/tfidf_demo/

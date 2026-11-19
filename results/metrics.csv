@@ -1,0 +1,5 @@
+model,subset,n,accuracy,macro_f1
+TF-IDF + Logistic Regression,all,7464,0.8829046087888531,0.8822607837461339
+TF-IDF + Logistic Regression,short_6_or_less,3554,0.867191896454699,0.8655604500754228
+MiniLM + Logistic Regression,all,7464,0.8381564844587353,0.8375106327923971
+MiniLM + Logistic Regression,short_6_or_less,3554,0.8106359032076533,0.8094538548776562

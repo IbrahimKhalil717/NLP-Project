@@ -1,0 +1,49 @@
+{
+  "research_question": "Which method performs better on headlines containing six words or fewer?",
+  "splits": {
+    "test": 7464,
+    "test_short": 3554
+  },
+  "comparison": [
+    {
+      "model": "TF-IDF + Logistic Regression",
+      "subset": "all",
+      "n": 7464,
+      "accuracy": 0.8829046087888531,
+      "macro_f1": 0.8822607837461339
+    },
+    {
+      "model": "TF-IDF + Logistic Regression",
+      "subset": "short_6_or_less",
+      "n": 3554,
+      "accuracy": 0.867191896454699,
+      "macro_f1": 0.8655604500754228
+    },
+    {
+      "model": "MiniLM + Logistic Regression",
+      "subset": "all",
+      "n": 7464,
+      "accuracy": 0.8381564844587353,
+      "macro_f1": 0.8375106327923971
+    },
+    {
+      "model": "MiniLM + Logistic Regression",
+      "subset": "short_6_or_less",
+      "n": 3554,
+      "accuracy": 0.8106359032076533,
+      "macro_f1": 0.8094538548776562
+    }
+  ],
+  "error_patterns": {
+    "both_correct": 5966,
+    "minilm_only_wrong": 624,
+    "both_wrong": 584,
+    "tfidf_only_wrong": 290
+  },
+  "short_error_patterns": {
+    "both_correct": 2726,
+    "minilm_only_wrong": 356,
+    "both_wrong": 317,
+    "tfidf_only_wrong": 155
+  }
+}
