@@ -6,7 +6,7 @@ The TF-IDF model and its test predictions are complete. **No pretrained-model co
 
 - `results/tfidf_predictions.csv`: two columns `text,prediction`, matching the supplied `data/test.csv` exactly in original row order, with class IDs 1–4.
 
-Copy this file into the **group repository** at the same relative path. Ibrahim's `evaluation_member1.py` checks the row ordering and compares this file with `results/minilm_predictions.csv` once that is available.
+Copy this file into the **group repository** at the same relative path. Ibrahim's `evaluation_legacy.py` checks the row ordering and compares this file with `results/minilm_predictions.csv` once that is available.
 
 ## Model code and files
 
