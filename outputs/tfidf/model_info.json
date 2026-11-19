@@ -1,0 +1,32 @@
+{
+  "data_mode": "shared",
+  "model": "TF-IDF + Logistic Regression",
+  "input_column": "text",
+  "label_mapping": {
+    "1": "World",
+    "2": "Sports",
+    "3": "Business",
+    "4": "Sci/Tech"
+  },
+  "validation_metrics": {
+    "overall": {
+      "accuracy": 0.8785071702146611,
+      "macro_f1": 0.8777219035122683
+    },
+    "samples": 11227,
+    "short_6_or_less": {
+      "accuracy": 0.8662947287418238,
+      "macro_f1": 0.8642477522348154
+    },
+    "short_samples": 5198
+  },
+  "selected_settings": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "C": 8.0
+  },
+  "random_seed": 42,
+  "test_used_for_selection": false
+}

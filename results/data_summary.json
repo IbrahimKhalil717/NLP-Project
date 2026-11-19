@@ -1,0 +1,24 @@
+{
+    "dataset": "AG News",
+    "text_field": "Headline only",
+    "short_headline_definition": "6 words or fewer",
+    "splits": {
+        "train": {
+            "total": 101043,
+            "short": 47011
+        },
+        "validation": {
+            "total": 11227,
+            "short": 5198
+        },
+        "test": {
+            "total": 7464,
+            "short": 3554
+        }
+    },
+    "overlap_check": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    }
+}
