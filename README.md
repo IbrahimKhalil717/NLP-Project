@@ -14,9 +14,6 @@ Use **Python 3.11** or newer and an isolated environment. `requirements.txt` spe
 
 ```bash
 python -m pip install -r requirements.txt
-python prepare_minilm_predictions.py
-python evaluation.py
-python -m unittest discover -s tests -v
 jupyter notebook News_Topic_Classification.ipynb
 ```
 
@@ -80,7 +77,7 @@ python pretrained_model.py --data_dir data --out_dir results --model_dir models
 ## Files
 
 - `News_Topic_Classification.ipynb` — **primary** team notebook to submit; execute `Run All` from clean kernel.
-- `TFIDF.ipynb` — optional original development notebook; **not** the main submission.
+- `archive/TFIDF.ipynb` — optional original development notebook; **not** the main submission.
 - `preprocessing.py`, `traditional_model.py`, `pretrained_model.py` — source methods.
 - `prepare_minilm_predictions.py`, `evaluation.py`, `predict_news.py` — canonical integration, evaluation and inference.
 - `evaluation_legacy.py` — compatibility command that delegates to `evaluation.py`.
