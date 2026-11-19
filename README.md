@@ -14,9 +14,6 @@ Use **Python 3.11** or newer and an isolated environment. `requirements.txt` spe
 
 ```bash
 python -m pip install -r requirements.txt
-python prepare_minilm_predictions.py
-python evaluation.py
-python -m unittest discover -s tests -v
 jupyter notebook News_Topic_Classification.ipynb
 ```
 
