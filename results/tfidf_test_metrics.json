@@ -1,0 +1,12 @@
+{
+  "overall": {
+    "accuracy": 0.8829046087888531,
+    "macro_f1": 0.8822607837461339
+  },
+  "samples": 7464,
+  "short_6_or_less": {
+    "accuracy": 0.867191896454699,
+    "macro_f1": 0.8655604500754228
+  },
+  "short_samples": 3554
+}
