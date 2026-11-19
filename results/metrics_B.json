@@ -1,0 +1,75 @@
+{
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "classifier": "LogisticRegression(solver=lbfgs, max_iter=2000)",
+  "best_hyperparams": {
+    "C": 0.5,
+    "class_weight": null
+  },
+  "val": {
+    "accuracy": 0.8391377928208782,
+    "macro_f1": 0.8378361589290775
+  },
+  "test": {
+    "accuracy": 0.8381564844587353,
+    "macro_f1": 0.8375106327923971,
+    "confusion_matrix": [
+      [
+        1608,
+        97,
+        110,
+        67
+      ],
+      [
+        71,
+        1701,
+        71,
+        43
+      ],
+      [
+        92,
+        88,
+        1429,
+        235
+      ],
+      [
+        85,
+        51,
+        198,
+        1518
+      ]
+    ]
+  },
+  "test_short": {
+    "accuracy": 0.8106359032076533,
+    "macro_f1": 0.8094538548776562,
+    "confusion_matrix": [
+      [
+        618,
+        59,
+        49,
+        34
+      ],
+      [
+        42,
+        872,
+        52,
+        30
+      ],
+      [
+        40,
+        57,
+        654,
+        134
+      ],
+      [
+        31,
+        35,
+        110,
+        737
+      ]
+    ]
+  },
+  "n_val": 11227,
+  "n_test": 7464,
+  "n_test_short": 3554
+}

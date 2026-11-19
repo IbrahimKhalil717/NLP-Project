@@ -1,0 +1,4 @@
+text,true_label,pred_label,confidence,note
+Startup unveils AI chip that triples training speed,Sci/Tech,Sci/Tech,0.8415005803108215,"Hand-written headline, not in AG News test."
+National team wins basketball championship after overtime thriller,Sports,Sports,0.9739589095115662,"Hand-written headline, not in AG News test."
+,-,-,0.0,Empty input: please enter a non-empty headline.
