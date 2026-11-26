@@ -1,6 +1,6 @@
 # Course requirement audit — Group 5
 
-Checked against `NLP_Project_Student_Brief(2).pdf` (pages 3–7) and the approved proposal. Results are generated from the *provided* frozen models and original data; no test tuning was performed in the integration work.
+Checked against the NLP Project Student Brief (pages 3–7) and the approved proposal. Results are generated from the *provided* frozen models and original data; no test tuning was performed in the integration work.
 
 ## Verified through code or included artifacts
 
@@ -16,16 +16,16 @@ Checked against `NLP_Project_Student_Brief(2).pdf` (pages 3–7) and the approve
 - [x] `Restart & Run All` executed successfully on provided artifact files and local environment.
 - [x] New-text prediction without retraining, empty-input guard verified for TF-IDF; MiniLM optional requires pretrained download.
 - [x] Source packages, environment, references and credit for libraries/weights/AI assistance documented.
-- [x] English report DRAFT contains required seven sections in under eight pages.
-- [x] PowerPoint DRAFT contains nine slides.
+- [x] Final English report contains the seven required sections and is within the eight-page limit.
+- [x] Final PowerPoint presentation contains nine slides.
+- [x] Team contribution appendix completed and approved by all three members.
+- [x] Final documents are included in `deliverables/`.
 
 ## Team must still complete/verify before Blackboard submission
 
-- [ ] Each member **personally confirms** two original manually labelled headlines, dated evidence, actual technical contribution and skills learned; update `deliverables/Group5_Appendix_TO_COMPLETE.docx`. Current appendix is not yet submitted as a completed declaration.
-- [ ] Team reviews report and references, adds missing instructor/section details and any corrections, removes DRAFT label after approval.
 - [ ] Team reviews speaking roles and practices **12-minute presentation + live demonstration** with each person speaking.
 - [ ] Team runs `Run All` on their own intended Colab/Jupyter environment and verifies **MiniLM live mode** can download/load its pretrained weights if they plan to demonstrate it. The default TF-IDF Try it does work offline.
-- [ ] Team checks its GitHub repository includes `News_Topic_Classification.ipynb`, source scripts, `models/minilm_logreg_coefficients.npz`, frozen TF-IDF model and canonical `results/*.csv`, and documents how to get `data/*.csv`.
+- [ ] Team checks its GitHub repository includes `News_Topic_Classification.ipynb`, source scripts, `models/minilm_logreg_coefficients.npz`, frozen TF-IDF model and canonical `results/*.csv`, and verifies the tracked `data/*.csv` against the split manifest.
 - [ ] Team bundles final report (Word/PDF), final appendix, presentation, notebook, supporting code and GitHub link in one `Group5_Project.zip` on Blackboard before precise posted deadline.
 - [ ] Team confirms exact due time and presentation slot on Blackboard (course guideline only gives date ranges).
 

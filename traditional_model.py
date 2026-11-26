@@ -360,7 +360,7 @@ def _main() -> None:
     frozen.add_argument("--results-dir", default="results")
 
     predict = sub.add_parser("predict", help="Predict new headline without retraining")
-    predict.add_argument("--model-path", default="outputs/tfidf_demo/tfidf_logreg.joblib")
+    predict.add_argument("--model-path", default="outputs/tfidf/tfidf_logreg.joblib")
     predict.add_argument("--text", required=True)
     args = parser.parse_args()
     if args.command == "export-test":

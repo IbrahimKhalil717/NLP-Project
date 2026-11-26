@@ -12,9 +12,7 @@ Thumbs.db
 models/hf_cache/
 .cache/
 
-# AG News source splits can be regenerated from preprocessing.py.
-# They are included in the offline submission ZIP, but not required in Git history.
-data/*.csv
+# Prepared AG News dataset splits are tracked for reproducibility.
 
 # Temporary scratch outputs; canonical frozen results should be committed.
 results/_scratch/

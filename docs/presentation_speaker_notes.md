@@ -1,12 +1,19 @@
 # 12-minute team presentation and live-demo rehearsal
 
-*Suggested division — confirm with the three students before submitting.*
+*Speaking plan from the final PowerPoint; rehearse before the presentation.*
 
 | Slide | Speaker | Approx. time | Focus |
 |---|---|---:|---|
-| 1–3 | Ibrahim | 4:00 | Motivation, research question, data source, cleaning, splitting, no leakage |
-| 4–6 | Abdulaziz & Mohammed | 4:00 | Data flow, traditional model settings, pretrained model settings, unbiased result table |
-| 7–9 | Entire group | 4:00 | Three authentic errors, live Try it demo, limitations and conclusion |
+| 1 | Ibrahim | 0:45 | Introduction |
+| 2 | Ibrahim | 1:15 | Research question and task |
+| 3 | Ibrahim | 1:45 | Data and split integrity |
+| 4 | Abdulaziz | 1:15 | Comparison pipeline |
+| 5 | Abdulaziz & Mohammed | 2:00 | Model development (1:00 each) |
+| 6 | Mohammed | 1:30 | Held-out results |
+| 7 | Mohammed | 1:30 | Error analysis |
+| 8 | Abdulaziz | 1:15 | Live notebook demo |
+| 9 | Ibrahim | 0:45 | Conclusion and limitations |
+| Total | All members | 12:00 | |
 
 Ensure **each student speaks** and can explain their model code, one result, one error case, and an individual contribution. The instructor may give around two minutes of individual questions after the group presentation.
 
