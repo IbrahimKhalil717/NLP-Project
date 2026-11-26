@@ -10,7 +10,7 @@ Labels: **1 World, 2 Sports, 3 Business, 4 Sci/Tech**. Internally the MiniLM cla
 
 ## Quick start
 
-Use **Python 3.11** or newer and an isolated environment. `requirements.txt` specifies the tested libraries (including `scikit-learn==1.8.0` needed for the saved TF-IDF model). **Never load unknown untrusted `.joblib` files.**
+Use **Python 3.11** (the tested version) and an isolated environment. `requirements.txt` specifies the tested libraries (including `scikit-learn==1.8.0` needed for the saved TF-IDF model). **Never load unknown untrusted `.joblib` files.**
 
 ```bash
 python -m pip install -r requirements.txt
@@ -19,13 +19,7 @@ jupyter notebook News_Topic_Classification.ipynb
 
 Open Jupyter **from the project root**, then **Kernel → Restart & Run All**. The submitted main notebook includes setup, data, Method 1, Method 2, comparison, an analysis of three real errors, **Try it**, and sources. Saved cell outputs are preserved.
 
-The `data/*.csv` files are provided in the complete ZIP. Git may omit them because the repository `.gitignore` intentionally excludes generated datasets. If the data files are absent, regenerate them from the public [AG News dataset](https://huggingface.co/datasets/sh0416/ag_news):
-
-```bash
-python preprocessing.py
-```
-
-This downloads original AG News source files and reconstructs the same deterministic train/val/test procedure. Dataset updates upstream may affect exact byte-for-byte reproducibility; supplied split manifests can verify the approved files.
+The prepared training, validation, and test CSV files are tracked in the repository. No data download or preprocessing is required for standard notebook execution. If regeneration is needed, first preserve the approved splits, then run `python preprocessing.py`. Upstream dataset changes may affect exact reproducibility; use the split manifest to verify the approved files.
 
 ## Reproduce final comparison (no retraining)
 
@@ -72,7 +66,7 @@ python traditional_model.py shared --data-dir data
 python pretrained_model.py --data_dir data --out_dir results --model_dir models
 ```
 
-**Do not run training again to reproduce submitted scores** without preserving the frozen model files first. The trained versions and results are in the archive. The MiniLM training script uses pretrained weights `sentence-transformers/all-MiniLM-L6-v2` and trains the classifier on train data, tuning on validation. Generating embeddings for all splits is computationally expensive and downloads a large pretrained model. `pretrained_model.py` has corrected default paths and now also outputs the canonical prediction format and coefficient file when retrained.
+**Do not run training again to reproduce submitted scores** without preserving the frozen model files first. The frozen models and results are stored in `outputs/tfidf/`, `models/`, and `results/`. The MiniLM training script uses pretrained weights `sentence-transformers/all-MiniLM-L6-v2` and trains the classifier on train data, tuning on validation. Generating embeddings for all splits is computationally expensive and downloads a large pretrained model. `pretrained_model.py` has corrected default paths and now also outputs the canonical prediction format and coefficient file when retrained.
 
 ## Files
 
@@ -84,11 +78,25 @@ python pretrained_model.py --data_dir data --out_dir results --model_dir models
 - `data/*.csv` — frozen approved splits; `data/preprocessing_stats.json` gives counts.
 - `results/*.csv` — final fixed model predictions, per-class reports and error-case evidence.
 - `outputs/tfidf/` and `models/` — saved models and evidence.
-- `docs/` — technical report sections, contribution evidence, documented error analysis and two original TF-IDF examples for personal review.
-- `deliverables/` — **draft** joint report/presentation/appendix, to be finalized with all students.
+- `docs/` — error analysis, project requirements checklist, and presentation speaker notes.
+- `deliverables/` — final project report, presentation, and approved team contribution appendix.
 
 ## Academic integrity and attributions
 
 Dataset: [AG News](https://huggingface.co/datasets/sh0416/ag_news). Pretrained weights: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2). Libraries: scikit-learn, pandas, Sentence Transformers. Technical references: Zhang et al. (2015), *Character-level Convolutional Networks for Text Classification* [paper](https://arxiv.org/abs/1509.01626); Reimers & Gurevych (2019), *Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks* [paper](https://aclanthology.org/D19-1410/).
 
-AI assistance was used for code support, debugging, documentation and drafting. Each student must review and personally label their **two original examples** and confirm their own documented contribution. Original examples must be **separate** from the test metrics. The team must supply an appendix, an 8-page-or-less seven-section report and a 5–10-slide presentation (about 12 minutes, every student speaks). The course's final ZIP is named `GroupID_Project.zip` and is uploaded to Blackboard, with a GitHub link.
+AI assistance was used for code support, debugging, documentation and drafting. All team members have reviewed and approved their documented contributions and labelled examples, as recorded in the final team appendix. AI assistance with examples is identified in that appendix. Original examples must be **separate** from the test metrics. The team must supply an appendix, an 8-page-or-less seven-section report and a 5–10-slide presentation (about 12 minutes, every student speaks). The final ZIP for this group is named `Group5_Project.zip` and is uploaded to Blackboard, with a GitHub link.
+
+## Project Verification
+
+Verify the integrity of the prepared dataset:
+
+```bash
+python scripts/verify_frozen_data.py
+```
+
+Run the project unit tests:
+
+```bash
+python -m unittest discover -s tests -v
+```
